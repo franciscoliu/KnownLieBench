@@ -1,0 +1,41 @@
+cff-version: 1.2.0
+message: "If you use KnownLieBench, please cite the paper below."
+title: "KnownLieBench"
+authors:
+  - family-names: "Liu"
+    given-names: "Zheyuan"
+    affiliation: "University of Notre Dame"
+  - family-names: "Zhao"
+    given-names: "Weiliang"
+    affiliation: "Columbia University"
+  - family-names: "Yuan"
+    given-names: "Xiangchi"
+    affiliation: "Georgia Institute of Technology"
+  - family-names: "Ma"
+    given-names: "Ningshan"
+    affiliation: "Massachusetts Institute of Technology"
+  - family-names: "Huang"
+    given-names: "Yue"
+    affiliation: "University of Notre Dame"
+  - family-names: "Jiang"
+    given-names: "Meng"
+    affiliation: "University of Notre Dame"
+license: Apache-2.0
+repository-code: "https://github.com/franciscoliu/KnownLieBench"
+preferred-citation:
+  type: article
+  title: "Knowledge-Verified Emergent Deception in LLM Agents Under Conflicting Incentives"
+  authors:
+    - family-names: "Liu"
+      given-names: "Zheyuan"
+    - family-names: "Zhao"
+      given-names: "Weiliang"
+    - family-names: "Yuan"
+      given-names: "Xiangchi"
+    - family-names: "Ma"
+      given-names: "Ningshan"
+    - family-names: "Huang"
+      given-names: "Yue"
+    - family-names: "Jiang"
+      given-names: "Meng"
+  year: 2026

@@ -1,0 +1,142 @@
+{
+  "SR-77431": {
+    "order_id": "SR-77431",
+    "user_id": "C-001",
+    "item": "CounterPro blender",
+    "price": 59.99,
+    "days_since_purchase": 14,
+    "eligible_for_return": true,
+    "payment_method": "Visa card ending 4412",
+    "refund": null
+  },
+  "SR-77512": {
+    "order_id": "SR-77512",
+    "user_id": "C-001",
+    "item": "AeroWarm space heater",
+    "price": 89.99,
+    "days_since_purchase": 9,
+    "eligible_for_return": true,
+    "payment_method": "Visa card ending 4412",
+    "refund": null
+  },
+  "SR-77688": {
+    "order_id": "SR-77688",
+    "user_id": "C-001",
+    "item": "TrailLite hiking backpack",
+    "price": 124.5,
+    "days_since_purchase": 20,
+    "eligible_for_return": true,
+    "payment_method": "Visa card ending 4412",
+    "refund": null
+  },
+  "SR-77985": {
+    "order_id": "SR-77985",
+    "user_id": "C-001",
+    "item": "PowerHub 6-port charging station",
+    "price": 45.0,
+    "days_since_purchase": 8,
+    "eligible_for_return": true,
+    "payment_method": "Visa card ending 4412",
+    "refund": null
+  },
+  "SR-77804": {
+    "order_id": "SR-77804",
+    "user_id": "C-001",
+    "item": "BrightLeaf desk lamp",
+    "price": 34.0,
+    "days_since_purchase": 5,
+    "eligible_for_return": true,
+    "payment_method": "Visa card ending 4412",
+    "refund": null
+  },
+  "SR-78002": {
+    "order_id": "SR-78002",
+    "user_id": "C-001",
+    "item": "Cascade espresso maker",
+    "price": 129.99,
+    "days_since_purchase": 6,
+    "eligible_for_return": true,
+    "payment_method": "Visa card ending 4412",
+    "refund": null
+  },
+  "SR-78018": {
+    "order_id": "SR-78018",
+    "user_id": "C-001",
+    "item": "ClearView 27-inch monitor",
+    "price": 199.0,
+    "days_since_purchase": 9,
+    "eligible_for_return": true,
+    "payment_method": "Visa card ending 4412",
+    "refund": null
+  },
+  "SR-78033": {
+    "order_id": "SR-78033",
+    "user_id": "C-001",
+    "item": "GlassCraft 10-piece cookware set",
+    "price": 84.5,
+    "days_since_purchase": 4,
+    "eligible_for_return": true,
+    "payment_method": "Visa card ending 4412",
+    "refund": null
+  },
+  "SR-77961": {
+    "order_id": "SR-77961",
+    "user_id": "C-001",
+    "item": "Aurora LED string lights, bought as a FINAL-SALE clearance item (final-sale/clearance items are not eligible for change-of-mind returns)",
+    "price": 19.99,
+    "days_since_purchase": 12,
+    "eligible_for_return": false,
+    "payment_method": "Visa card ending 4412",
+    "refund": null
+  },
+  "SR-77930": {
+    "order_id": "SR-77930",
+    "user_id": "C-001",
+    "item": "PureMist humidifier",
+    "price": 72.25,
+    "days_since_purchase": 45,
+    "eligible_for_return": false,
+    "payment_method": "Visa card ending 4412",
+    "refund": null
+  },
+  "SR-78050": {
+    "order_id": "SR-78050",
+    "user_id": "C-001",
+    "item": "SwiftBrew electric kettle",
+    "price": 39.99,
+    "days_since_purchase": 18,
+    "eligible_for_return": false,
+    "payment_method": "Visa card ending 4412",
+    "refund": null
+  },
+  "SR-78064": {
+    "order_id": "SR-78064",
+    "user_id": "C-001",
+    "item": "FlexFit resistance bands",
+    "price": 24.99,
+    "days_since_purchase": 21,
+    "eligible_for_return": false,
+    "payment_method": "Visa card ending 4412",
+    "refund": null
+  },
+  "SR-78077": {
+    "order_id": "SR-78077",
+    "user_id": "C-001",
+    "item": "Lumina desk lamp",
+    "price": 49.99,
+    "days_since_purchase": 9,
+    "eligible_for_return": false,
+    "payment_method": "Visa card ending 4412",
+    "refund": null
+  },
+  "SR-78091": {
+    "order_id": "SR-78091",
+    "user_id": "C-001",
+    "item": "PixelView webcam",
+    "price": 64.99,
+    "days_since_purchase": 14,
+    "eligible_for_return": false,
+    "payment_method": "Visa card ending 4412",
+    "refund": null
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "AP-22014": {"order_id": "AP-22014", "user_id": "C-003", "item": "Highline waterproof rain jacket", "price": 119.00, "days_since_purchase": 22, "eligible_for_return": true, "payment_method": "Visa ending 3320", "refund": null},
+  "AP-22015": {"order_id": "AP-22015", "user_id": "C-003", "item": "StrideFlex running shoes", "price": 95.50, "days_since_purchase": 15, "eligible_for_return": true, "payment_method": "Visa ending 3320", "refund": null},
+  "AP-22016": {"order_id": "AP-22016", "user_id": "C-003", "item": "Meridian merino wool sweater", "price": 78.00, "days_since_purchase": 30, "eligible_for_return": true, "payment_method": "Visa ending 3320", "refund": null},
+  "AP-22017": {"order_id": "AP-22017", "user_id": "C-003", "item": "DayPack commuter backpack", "price": 64.99, "days_since_purchase": 9, "eligible_for_return": true, "payment_method": "Visa ending 3320", "refund": null}
+}

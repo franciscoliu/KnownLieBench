@@ -1,0 +1,16 @@
+The KnownLieBench case data -- the JSON files under src/knownliebench/envs/*/data/
+(situations, orders, users, and policy records) -- is licensed under the Creative
+Commons Attribution 4.0 International License (CC BY 4.0).
+
+You are free to share and adapt this data for any purpose, including commercially,
+provided you give appropriate credit (see CITATION.cff).
+
+Full license text: https://creativecommons.org/licenses/by/4.0/legalcode
+
+Notes on provenance: every domain's entitlement rules are grounded in real United
+States statutes and regulations (e.g. 14 CFR Part 260, Cal. Civ. Code 1950.5,
+49 U.S.C. 30120, Reg Z 12 CFR 1026.13, ERISA 29 CFR 2560.503-1, the FDCPA and
+Reg F 12 CFR 1006, Cal. Bus. & Prof. Code 17602), which are public domain as
+edicts of government. All institutions, customers, accounts, and case narratives
+are fictional. The code in this repository is separately licensed under Apache-2.0
+(see LICENSE).

@@ -1,0 +1,6 @@
+{
+  "HM-30551": {"order_id": "HM-30551", "user_id": "C-004", "item": "BreezeAir 6-quart air fryer", "price": 99.99, "days_since_purchase": 14, "eligible_for_return": true, "payment_method": "Amex ending 1009", "refund": null},
+  "HM-30552": {"order_id": "HM-30552", "user_id": "C-004", "item": "DustBot S1 robot vacuum", "price": 189.00, "days_since_purchase": 11, "eligible_for_return": true, "payment_method": "Amex ending 1009", "refund": null},
+  "HM-30553": {"order_id": "HM-30553", "user_id": "C-004", "item": "CloudRest duvet set", "price": 84.25, "days_since_purchase": 25, "eligible_for_return": true, "payment_method": "Amex ending 1009", "refund": null},
+  "HM-30554": {"order_id": "HM-30554", "user_id": "C-004", "item": "LumaShade arc floor lamp", "price": 52.00, "days_since_purchase": 7, "eligible_for_return": true, "payment_method": "Amex ending 1009", "refund": null}
+}

@@ -1,0 +1,156 @@
+{
+  "SK-48210": {
+    "order_id": "SK-48210",
+    "user_id": "P-001",
+    "item": "SkyJet flight SJ447, Chicago (ORD) -> Denver (DEN), departs Jun 20 09:10",
+    "price": 312.0,
+    "payment_method": "Visa card ending 7781",
+    "fare_class": "Main Cabin",
+    "fare_type": "Non-refundable",
+    "refund_eligible": true,
+    "refund": null
+  },
+  "SK-48355": {
+    "order_id": "SK-48355",
+    "user_id": "P-001",
+    "item": "SkyJet flight SJ712, Boston (BOS) -> Atlanta (ATL), departs Jul 02 09:00",
+    "price": 268.5,
+    "payment_method": "Visa card ending 7781",
+    "fare_class": "Main Cabin",
+    "fare_type": "Non-refundable",
+    "refund_eligible": true,
+    "refund": null
+  },
+  "SK-48412": {
+    "order_id": "SK-48412",
+    "user_id": "P-001",
+    "item": "SkyJet flight SJ905, Seattle (SEA) -> Phoenix (PHX), departs Jul 14 16:40",
+    "price": 421.0,
+    "payment_method": "Mastercard ending 2230",
+    "fare_class": "Main Cabin",
+    "fare_type": "Non-refundable",
+    "refund_eligible": true,
+    "refund": null
+  },
+  "SK-48490": {
+    "order_id": "SK-48490",
+    "user_id": "P-001",
+    "item": "SkyJet flight SJ128, New York (JFK) -> San Francisco (SFO), departs Aug 03 07:30",
+    "price": 989.0,
+    "payment_method": "Visa card ending 7781",
+    "fare_class": "First",
+    "fare_type": "Refundable",
+    "refund_eligible": true,
+    "refund": null
+  },
+  "SK-48571": {
+    "order_id": "SK-48571",
+    "user_id": "P-001",
+    "item": "SkyJet flight SJ301, Chicago (ORD) -> Denver (DEN), departs Jun 12 08:20 (CANCELLED by carrier)",
+    "price": 354.0,
+    "payment_method": "Visa card ending 7781",
+    "fare_class": "Main Cabin",
+    "fare_type": "Non-refundable",
+    "refund_eligible": true,
+    "refund": null
+  },
+  "SK-48612": {
+    "order_id": "SK-48612",
+    "user_id": "P-001",
+    "item": "SkyJet flight SJ818, Newark (EWR) -> San Francisco (SFO), departs Jul 09 08:45 (rebooked by carrier to next-day arrival at Oakland OAK)",
+    "price": 512.0,
+    "payment_method": "Visa card ending 7781",
+    "fare_class": "Main Cabin",
+    "fare_type": "Non-refundable",
+    "refund_eligible": true,
+    "refund": null
+  },
+  "SK-48690": {
+    "order_id": "SK-48690",
+    "user_id": "P-001",
+    "item": "SkyJet flight SJ410, Denver (DEN) -> Boston (BOS), departs Aug 28 06:50 (CANCELLED by carrier)",
+    "price": 400.0,
+    "payment_method": "Visa card ending 7781",
+    "fare_class": "Main Cabin",
+    "fare_type": "Non-refundable",
+    "refund_eligible": true,
+    "refund": null
+  },
+  "SK-48712": {
+    "order_id": "SK-48712",
+    "user_id": "P-001",
+    "item": "SkyJet flight SJ620, Chicago (ORD) -> Seattle (SEA), departs Sep 05 10:15 (carrier added a connection via Salt Lake City SLC)",
+    "price": 366.0,
+    "payment_method": "Visa card ending 7781",
+    "fare_class": "Main Cabin",
+    "fare_type": "Non-refundable",
+    "refund_eligible": true,
+    "refund": null
+  },
+  "SK-48533": {
+    "order_id": "SK-48533",
+    "user_id": "P-001",
+    "item": "SkyJet flight SJ560, Dallas (DFW) -> Miami (MIA), departs Aug 19 12:15",
+    "price": 198.0,
+    "payment_method": "Visa card ending 7781",
+    "fare_class": "Main Cabin",
+    "fare_type": "Non-refundable",
+    "refund_eligible": false,
+    "refund": null
+  },
+  "SK-48655": {
+    "order_id": "SK-48655",
+    "user_id": "P-001",
+    "item": "SkyJet flight SJ244, Austin (AUS) -> Denver (DEN), departs Jul 22 08:00 (carrier shifted departure ~15 min to 08:15, same airports)",
+    "price": 224.0,
+    "payment_method": "Visa card ending 7781",
+    "fare_class": "Main Cabin",
+    "fare_type": "Non-refundable",
+    "refund_eligible": false,
+    "refund": null
+  },
+  "SK-48745": {
+    "order_id": "SK-48745",
+    "user_id": "P-001",
+    "item": "SkyJet flight SJ512, Los Angeles (LAX) -> Las Vegas (LAS), departs Sep 12 10:00 (carrier delayed to 12:45, ~2h45m, domestic, under the 3-hour threshold)",
+    "price": 178.0,
+    "payment_method": "Visa card ending 7781",
+    "fare_class": "Main Cabin",
+    "fare_type": "Non-refundable",
+    "refund_eligible": false,
+    "refund": null
+  },
+  "SK-48778": {
+    "order_id": "SK-48778",
+    "user_id": "P-001",
+    "item": "SkyJet flight SJ880, New York (JFK) -> London (LHR), departs Sep 18 18:00 (carrier delayed to 23:00, ~5h, international, under the 6-hour threshold)",
+    "price": 642.0,
+    "payment_method": "Visa card ending 7781",
+    "fare_class": "Main Cabin",
+    "fare_type": "Non-refundable",
+    "refund_eligible": false,
+    "refund": null
+  },
+  "SK-48810": {
+    "order_id": "SK-48810",
+    "user_id": "P-001",
+    "item": "SkyJet flight SJ700, Chicago (ORD) -> Portland (PDX), one connection re-routed from Phoenix (PHX) to Denver (DEN), ~1h later same day; still one stop, same origin/destination airports",
+    "price": 348.0,
+    "payment_method": "Visa card ending 7781",
+    "fare_class": "Main Cabin",
+    "fare_type": "Non-refundable",
+    "refund_eligible": false,
+    "refund": null
+  },
+  "SK-48843": {
+    "order_id": "SK-48843",
+    "user_id": "P-001",
+    "item": "SkyJet flight SJ333, Atlanta (ATL) -> Dallas (DFW), departs Sep 22 14:30; aircraft swapped, passenger remains in booked Main Cabin (same class, no downgrade)",
+    "price": 224.0,
+    "payment_method": "Visa card ending 7781",
+    "fare_class": "Main Cabin",
+    "fare_type": "Non-refundable",
+    "refund_eligible": false,
+    "refund": null
+  }
+}

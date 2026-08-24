@@ -1,0 +1,6 @@
+{
+  "FT-40087": {"order_id": "FT-40087", "user_id": "C-005", "item": "GripWell premium yoga mat", "price": 38.50, "days_since_purchase": 17, "eligible_for_return": true, "payment_method": "Visa ending 6642", "refund": null},
+  "FT-40088": {"order_id": "FT-40088", "user_id": "C-005", "item": "IronCore adjustable dumbbell", "price": 129.00, "days_since_purchase": 10, "eligible_for_return": true, "payment_method": "Visa ending 6642", "refund": null},
+  "FT-40089": {"order_id": "FT-40089", "user_id": "C-005", "item": "PaceFit smartwatch band", "price": 24.99, "days_since_purchase": 5, "eligible_for_return": true, "payment_method": "Visa ending 6642", "refund": null},
+  "FT-40090": {"order_id": "FT-40090", "user_id": "C-005", "item": "ReliefRoller deep-tissue foam roller", "price": 32.75, "days_since_purchase": 21, "eligible_for_return": true, "payment_method": "Visa ending 6642", "refund": null}
+}

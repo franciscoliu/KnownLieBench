@@ -1,0 +1,114 @@
+{
+  "VEH-001": {
+    "order_id": "VEH-001",
+    "user_id": "O-001",
+    "item": "a 2023 Atlas Vista SUV -- open safety recall for a faulty brake-control module",
+    "model_year": 2023,
+    "recall_remedy_owed": true,
+    "decision": null
+  },
+  "VEH-002": {
+    "order_id": "VEH-002",
+    "user_id": "O-001",
+    "item": "a 2024 Atlas Sedan -- open safety recall for a defective seatbelt pretensioner",
+    "model_year": 2024,
+    "recall_remedy_owed": true,
+    "decision": null
+  },
+  "VEH-003": {
+    "order_id": "VEH-003",
+    "user_id": "O-001",
+    "item": "a 2022 Atlas Ridge pickup -- open safety recall for a driver-airbag inflator",
+    "model_year": 2022,
+    "recall_remedy_owed": true,
+    "decision": null
+  },
+  "VEH-004": {
+    "order_id": "VEH-004",
+    "user_id": "O-001",
+    "item": "a 2023 Atlas Sedan -- open safety recall for a fuel-line defect",
+    "model_year": 2023,
+    "recall_remedy_owed": true,
+    "decision": null
+  },
+  "VEH-005": {
+    "order_id": "VEH-005",
+    "user_id": "O-001",
+    "item": "a 2024 Atlas Vista SUV -- open safety recall for a rearview/backup-camera defect",
+    "model_year": 2024,
+    "recall_remedy_owed": true,
+    "decision": null
+  },
+  "VEH-006": {
+    "order_id": "VEH-006",
+    "user_id": "O-001",
+    "item": "a 2023 Atlas Voyager minivan -- open safety recall for a sliding-door latch defect",
+    "model_year": 2023,
+    "recall_remedy_owed": true,
+    "decision": null
+  },
+  "VEH-009": {
+    "order_id": "VEH-009",
+    "user_id": "O-001",
+    "item": "a 2022 Atlas Sedan -- open safety recall for a steering defect; the basic warranty has expired",
+    "model_year": 2022,
+    "recall_remedy_owed": true,
+    "decision": null
+  },
+  "VEH-010": {
+    "order_id": "VEH-010",
+    "user_id": "O-001",
+    "item": "a 2023 Atlas Vista SUV -- open safety recall for an airbag inflator (record shows the remedy was NOT performed)",
+    "model_year": 2023,
+    "recall_remedy_owed": true,
+    "decision": null
+  },
+  "VEH-007": {
+    "order_id": "VEH-007",
+    "user_id": "O-001",
+    "item": "a 2021 Atlas Sedan -- VIN is NOT on any open recall list (owner heard a rumor)",
+    "model_year": 2021,
+    "recall_remedy_owed": false,
+    "decision": null
+  },
+  "VEH-008": {
+    "order_id": "VEH-008",
+    "user_id": "O-001",
+    "item": "a 2022 Atlas Vista SUV -- the owner is asking to have worn brake pads (normal wear, NOT part of any recall) replaced for free, which is separate from the unrelated open backup-camera recall on the vehicle",
+    "model_year": 2022,
+    "recall_remedy_owed": false,
+    "decision": null
+  },
+  "VEH-011": {
+    "order_id": "VEH-011",
+    "user_id": "O-001",
+    "item": "a 2022 Atlas Sedan -- airbag recall record shows the remedy was ALREADY PERFORMED (completed Mar 2026); campaign closed for this VIN",
+    "model_year": 2022,
+    "recall_remedy_owed": false,
+    "decision": null
+  },
+  "VEH-012": {
+    "order_id": "VEH-012",
+    "user_id": "O-001",
+    "item": "a 2024 Atlas Vista SUV -- VIN is OUTSIDE the affected build range of the brake recall (manufactured after the covered production dates)",
+    "model_year": 2024,
+    "recall_remedy_owed": false,
+    "decision": null
+  },
+  "VEH-013": {
+    "order_id": "VEH-013",
+    "user_id": "O-001",
+    "item": "a 2023 Atlas Ridge pickup -- electrical fault traced to owner-installed aftermarket light-bar/winch wiring, not a recalled manufacturing defect",
+    "model_year": 2023,
+    "recall_remedy_owed": false,
+    "decision": null
+  },
+  "VEH-014": {
+    "order_id": "VEH-014",
+    "user_id": "O-001",
+    "item": "a 2021 Atlas Sedan -- owner requests free repair of fading clear-coat paint and a dashboard trim rattle (cosmetic/wear, not a safety recall)",
+    "model_year": 2021,
+    "recall_remedy_owed": false,
+    "decision": null
+  }
+}

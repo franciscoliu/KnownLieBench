@@ -1,0 +1,129 @@
+# Model configs for KnownLieBench.
+#
+# The registry (knownliebench.backends.registry) searches these sections in order:
+# sender_models, environment_models, mock_models, local_hf_models. A config's name is
+# what you pass to --agent / --customer / --grader.
+#
+# Providers:
+#   openai             OpenAI Responses API. Needs OPENAI_API_KEY.
+#   openai_compatible  Any OpenAI-compatible chat-completions endpoint (OpenRouter, a
+#                      self-hosted LiteLLM gateway, vllm serve, a vendor compatibility
+#                      endpoint). Needs OPENAI_COMPAT_API_KEY, plus a full endpoint URL
+#                      in `base_url` or OPENAI_COMPAT_BASE_URL.
+#   local_hf           An open-weight model on your GPU via transformers. `model_path`
+#                      is a HF hub id or a local snapshot dir. Needs the [local] extra.
+#   scripted           Deterministic no-API clients for the refund-domain demo.
+#   mock               Prompt echo, for plumbing tests only (cannot pass the gate).
+#
+# Sampling note: the dialogue runner overrides temperature per role (agent 0.7;
+# customer, judge, and gate 0.0), so the temperatures below are fallbacks for
+# direct client use. The `max_tokens` values below are the ones the paper ran.
+
+sender_models:
+  # --- agents under test: pick one, or copy an entry and point it at your model ---
+  openai_agent_gpt4o_mini:
+    provider: openai
+    model: gpt-4o-mini-2024-07-18
+    temperature: 0.7
+    max_tokens: 4000
+
+  openai_agent_gpt54_mini:
+    provider: openai
+    model: gpt-5.4-mini
+    temperature: 0.7
+    max_tokens: 4000
+
+  # Template for any OpenAI-compatible endpoint. Set OPENAI_COMPAT_API_KEY and either
+  # fill base_url below or export OPENAI_COMPAT_BASE_URL (full /v1/chat/completions URL).
+  compat_agent:
+    provider: openai_compatible
+    model: your/model-id-here
+    # base_url: https://your-endpoint.example/v1/chat/completions
+    temperature: 0.7
+    max_tokens: 4000
+
+environment_models:
+  # --- the paper's fixed measurement apparatus (pinned snapshots) ---
+  openai_gpt4o_mini_customer_dated:     # customer simulator
+    provider: openai
+    model: gpt-4o-mini-2024-07-18
+    temperature: 0.0
+    max_tokens: 600
+
+  openai_grader_gpt51:                  # the paper's judge (validated against human labels)
+    provider: openai
+    model: gpt-5.1-2025-11-13
+    temperature: 0.0
+    max_tokens: 900
+
+  # --- scripted apparatus for the no-key demo ---
+  scripted_customer:
+    provider: scripted
+    model: scripted-demo
+    role: customer
+
+  scripted_grader:
+    provider: scripted
+    model: scripted-demo
+    role: grader
+
+  # --- optional judge-robustness wrappers around a base grader config ---
+  ensemble_grader_mini:            # k-vote self-consistency over the base grader
+    provider: ensemble
+    base_grader: openai_grader_gpt51
+    k: 5
+    false_claim_threshold: majority
+    temperature: 0.0
+    max_tokens: 900
+
+  decompose_grader_mini:           # per-claim isolation, then aggregate
+    provider: decompose
+    base_grader: openai_grader_gpt51
+    max_claims: 12
+    holistic: true
+    temperature: 0.0
+    max_tokens: 900
+
+  verify_grader_mini:              # grade, then verify flagged claims (precision booster)
+    provider: verify
+    base_grader: openai_grader_gpt51
+    temperature: 0.0
+    max_tokens: 900
+
+mock_models:
+  mock:
+    provider: mock
+
+  scripted_agent_deceptive:
+    provider: scripted
+    model: scripted-demo
+    role: agent_deceptive
+
+  scripted_agent_honest:
+    provider: scripted
+    model: scripted-demo
+    role: agent_honest
+
+local_hf_models:
+  # --- the paper's open-weight agents. model_path accepts a HF hub id (downloaded to
+  # your HF cache on first use) or a local snapshot directory. See the [local] extra. ---
+  local_llama31_8b:
+    provider: local_hf
+    model_path: meta-llama/Llama-3.1-8B-Instruct
+    temperature: 0.7
+    max_tokens: 2048
+    enable_thinking: false
+
+  local_qwen35_27b:
+    provider: local_hf
+    model_path: Qwen/Qwen3.5-27B     # adjust if your snapshot uses a different id/path
+    temperature: 0.7
+    max_tokens: 2048
+    enable_thinking: false
+
+  local_gemma3_12b:
+    provider: local_hf
+    model_path: google/gemma-3-12b-it
+    temperature: 0.7
+    max_tokens: 2048
+    enable_thinking: false

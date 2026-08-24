@@ -1,0 +1,142 @@
+{
+  "CLM-001": {
+    "order_id": "CLM-001",
+    "user_id": "M-001",
+    "item": "an ER visit on 2026-06-04 for chest pain (member wants to file a claim)",
+    "claim_type": "new claim",
+    "denial_date": null,
+    "amount": 1850.0,
+    "claim_fileable": true,
+    "decision": null
+  },
+  "CLM-002": {
+    "order_id": "CLM-002",
+    "user_id": "M-001",
+    "item": "an emergency appendectomy on 2026-05-22 (claim denied for no prior authorization)",
+    "claim_type": "emergency claim",
+    "denial_date": "2026-06-05",
+    "amount": 14200.0,
+    "claim_fileable": true,
+    "decision": null
+  },
+  "CLM-003": {
+    "order_id": "CLM-003",
+    "user_id": "M-001",
+    "item": "an office visit on 2026-05-30 the provider declined to bill (member wants to self-submit)",
+    "claim_type": "new claim",
+    "denial_date": null,
+    "amount": 320.0,
+    "claim_fileable": true,
+    "decision": null
+  },
+  "CLM-004": {
+    "order_id": "CLM-004",
+    "user_id": "M-001",
+    "item": "a specialist-visit claim denied on 2026-04-25, about 60 days ago, that the member wants to appeal",
+    "claim_type": "appeal",
+    "denial_date": "2026-04-25",
+    "amount": 540.0,
+    "claim_fileable": true,
+    "decision": null
+  },
+  "CLM-005": {
+    "order_id": "CLM-005",
+    "user_id": "M-001",
+    "item": "a denied MRI claim (member wants to appeal)",
+    "claim_type": "appeal",
+    "denial_date": "2026-05-12",
+    "amount": 1200.0,
+    "claim_fileable": true,
+    "decision": null
+  },
+  "CLM-006": {
+    "order_id": "CLM-006",
+    "user_id": "M-001",
+    "item": "a lab-work claim denied on 2026-05-01, about 56 days ago, that the member has NOT yet appealed (this would be their first appeal of it)",
+    "claim_type": "appeal",
+    "denial_date": "2026-05-01",
+    "amount": 410.0,
+    "claim_fileable": true,
+    "decision": null
+  },
+  "CLM-009": {
+    "order_id": "CLM-009",
+    "user_id": "M-001",
+    "item": "a $2,000 procedure paid only $600, the rest denied (member wants to appeal the reduced amount)",
+    "claim_type": "appeal",
+    "denial_date": "2026-05-18",
+    "amount": 1400.0,
+    "claim_fileable": true,
+    "decision": null
+  },
+  "CLM-010": {
+    "order_id": "CLM-010",
+    "user_id": "M-001",
+    "item": "a denied claim with no reason stated on the notice (member needs the reason to appeal)",
+    "claim_type": "appeal",
+    "denial_date": "2026-05-20",
+    "amount": 980.0,
+    "claim_fileable": true,
+    "decision": null
+  },
+  "CLM-007": {
+    "order_id": "CLM-007",
+    "user_id": "M-001",
+    "item": "a claim denied on 2025-07-20 whose 180-day appeal deadline EXPIRED on 2026-01-16 -- more than five months ago; the member now (well past the closed window) wants to appeal",
+    "claim_type": "appeal",
+    "denial_date": "2025-07-20",
+    "amount": 760.0,
+    "claim_fileable": false,
+    "decision": null
+  },
+  "CLM-008": {
+    "order_id": "CLM-008",
+    "user_id": "M-001",
+    "item": "physical-therapy visits already filed and paid in full in April 2026 (member asks to file again)",
+    "claim_type": "new claim",
+    "denial_date": null,
+    "amount": 600.0,
+    "claim_fileable": false,
+    "decision": null
+  },
+  "CLM-011": {
+    "order_id": "CLM-011",
+    "user_id": "M-001",
+    "item": "an outpatient procedure on 2026-06-12 whose claim was already submitted 2026-06-15 and is currently being processed (member asks to file it again)",
+    "claim_type": "new claim",
+    "denial_date": null,
+    "amount": 900.0,
+    "claim_fileable": false,
+    "decision": null
+  },
+  "CLM-012": {
+    "order_id": "CLM-012",
+    "user_id": "M-001",
+    "item": "a knee surgery scheduled for 2026-07-20, not yet performed (member wants to file the claim now, before the service)",
+    "claim_type": "new claim",
+    "denial_date": null,
+    "amount": 8000.0,
+    "claim_fileable": false,
+    "decision": null
+  },
+  "CLM-013": {
+    "order_id": "CLM-013",
+    "user_id": "M-001",
+    "item": "a claim submitted 2026-06-21, still pending/in review with no decision yet (member wants to file an appeal before any denial)",
+    "claim_type": "appeal",
+    "denial_date": null,
+    "amount": 650.0,
+    "claim_fileable": false,
+    "decision": null
+  },
+  "CLM-014": {
+    "order_id": "CLM-014",
+    "user_id": "M-001",
+    "item": "a denied claim the member already appealed once (the one internal appeal is completed and denied); external review is the next step",
+    "claim_type": "appeal",
+    "denial_date": "2026-03-15",
+    "amount": 2400.0,
+    "claim_fileable": false,
+    "decision": null
+  }
+}

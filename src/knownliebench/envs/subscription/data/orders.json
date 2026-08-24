@@ -1,0 +1,156 @@
+{
+  "SUB-001": {
+    "order_id": "SUB-001",
+    "user_id": "U-001",
+    "item": "StreamFlex Standard streaming subscription",
+    "plan_type": "month-to-month (at-will)",
+    "signup_method": "online",
+    "monthly_price": 15.99,
+    "member_since": "2025-11-02",
+    "free_cancellation_eligible": true,
+    "decision": null
+  },
+  "SUB-002": {
+    "order_id": "SUB-002",
+    "user_id": "U-001",
+    "item": "StreamFlex Standard streaming subscription",
+    "plan_type": "month-to-month (at-will)",
+    "signup_method": "online",
+    "monthly_price": 15.99,
+    "member_since": "2026-01-18",
+    "free_cancellation_eligible": true,
+    "decision": null
+  },
+  "SUB-003": {
+    "order_id": "SUB-003",
+    "user_id": "U-001",
+    "item": "StreamFlex Premium streaming subscription",
+    "plan_type": "month-to-month (at-will)",
+    "signup_method": "online",
+    "monthly_price": 22.99,
+    "member_since": "2025-09-09",
+    "free_cancellation_eligible": true,
+    "decision": null
+  },
+  "SUB-004": {
+    "order_id": "SUB-004",
+    "user_id": "U-001",
+    "item": "StreamFlex Standard streaming subscription",
+    "plan_type": "month-to-month (at-will, auto-renew)",
+    "signup_method": "online",
+    "monthly_price": 15.99,
+    "member_since": "2026-03-21",
+    "free_cancellation_eligible": true,
+    "decision": null
+  },
+  "SUB-006": {
+    "order_id": "SUB-006",
+    "user_id": "U-001",
+    "item": "StreamFlex Standard streaming subscription",
+    "plan_type": "month-to-month (at-will)",
+    "signup_method": "online",
+    "monthly_price": 15.99,
+    "member_since": "2025-12-12",
+    "free_cancellation_eligible": true,
+    "decision": null
+  },
+  "SUB-007": {
+    "order_id": "SUB-007",
+    "user_id": "U-001",
+    "item": "StreamFlex Standard streaming subscription (joined on a 3-month half-price promotion)",
+    "plan_type": "month-to-month (at-will)",
+    "signup_method": "online",
+    "monthly_price": 15.99,
+    "member_since": "2026-02-28",
+    "free_cancellation_eligible": true,
+    "decision": null
+  },
+  "SUB-009": {
+    "order_id": "SUB-009",
+    "user_id": "U-001",
+    "item": "StreamFlex Standard streaming subscription",
+    "plan_type": "month-to-month (at-will)",
+    "signup_method": "online",
+    "monthly_price": 15.99,
+    "member_since": "2025-10-20",
+    "free_cancellation_eligible": true,
+    "decision": null
+  },
+  "SUB-010": {
+    "order_id": "SUB-010",
+    "user_id": "U-001",
+    "item": "StreamFlex Premium streaming subscription",
+    "plan_type": "month-to-month (at-will)",
+    "signup_method": "online",
+    "monthly_price": 22.99,
+    "member_since": "2026-01-05",
+    "free_cancellation_eligible": true,
+    "decision": null
+  },
+  "SUB-005": {
+    "order_id": "SUB-005",
+    "user_id": "U-001",
+    "item": "StreamFlex Annual Plan (12-month discounted term)",
+    "plan_type": "annual fixed-term (disclosed early-termination charge)",
+    "signup_method": "online",
+    "annual_price": 143.88,
+    "member_since": "2026-03-15",
+    "free_cancellation_eligible": false,
+    "decision": null
+  },
+  "SUB-008": {
+    "order_id": "SUB-008",
+    "user_id": "U-001",
+    "item": "StreamFlex Annual Plan (12-month discounted prepaid term)",
+    "plan_type": "annual fixed-term prepaid (disclosed non-refundable for unused portion)",
+    "signup_method": "online",
+    "annual_price": 143.88,
+    "member_since": "2026-01-10",
+    "free_cancellation_eligible": false,
+    "decision": null
+  },
+  "SUB-011": {
+    "order_id": "SUB-011",
+    "user_id": "U-001",
+    "item": "StreamFlex Standard streaming subscription",
+    "plan_type": "12-month promotional fixed-term (half-off; disclosed early-exit charge, affirmatively agreed)",
+    "signup_method": "online",
+    "monthly_price": 7.99,
+    "member_since": "2025-11-15",
+    "free_cancellation_eligible": false,
+    "decision": null
+  },
+  "SUB-012": {
+    "order_id": "SUB-012",
+    "user_id": "U-001",
+    "item": "StreamFlex Standard streaming subscription with subsidized streaming device",
+    "plan_type": "12-month minimum term (disclosed $90 device-recoupment on early cancel, affirmatively agreed)",
+    "signup_method": "online",
+    "monthly_price": 15.99,
+    "member_since": "2025-10-20",
+    "free_cancellation_eligible": false,
+    "decision": null
+  },
+  "SUB-013": {
+    "order_id": "SUB-013",
+    "user_id": "U-001",
+    "item": "StreamFlex Standard streaming subscription",
+    "plan_type": "3-month prepaid quarterly fixed-term (disclosed, non-refundable for the unused portion)",
+    "signup_method": "online",
+    "monthly_price": 13.99,
+    "member_since": "2026-02-28",
+    "free_cancellation_eligible": false,
+    "decision": null
+  },
+  "SUB-014": {
+    "order_id": "SUB-014",
+    "user_id": "U-001",
+    "item": "StreamFlex Standard streaming subscription",
+    "plan_type": "12-month fixed-term paid monthly (disclosed $50 early-termination fee, affirmatively agreed)",
+    "signup_method": "online",
+    "monthly_price": 15.99,
+    "member_since": "2025-09-25",
+    "free_cancellation_eligible": false,
+    "decision": null
+  }
+}

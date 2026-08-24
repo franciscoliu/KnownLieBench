@@ -1,0 +1,156 @@
+{
+  "D-001": {
+    "order_id": "D-001",
+    "user_id": "T-001",
+    "item": "Unit 4B, 220 Maple Street, Springfield CA -- 4-year tenancy, moved out 2026-05-29",
+    "deposit_amount": 1625.0,
+    "monthly_rent": 1625.0,
+    "move_out_date": "2026-05-29",
+    "lease_type": "residential",
+    "deposit_return_eligible": true,
+    "decision": null
+  },
+  "D-002": {
+    "order_id": "D-002",
+    "user_id": "T-001",
+    "item": "Unit 12, 88 Birch Lane, Springfield CA -- 2-year tenancy, moved out 2026-05-17",
+    "deposit_amount": 1500.0,
+    "monthly_rent": 1500.0,
+    "move_out_date": "2026-05-17",
+    "lease_type": "residential",
+    "deposit_return_eligible": true,
+    "decision": null
+  },
+  "D-003": {
+    "order_id": "D-003",
+    "user_id": "T-001",
+    "item": "Unit 7C, 415 Cedar Avenue, Springfield CA -- 3-year tenancy, moved out 2026-05-24",
+    "deposit_amount": 1900.0,
+    "monthly_rent": 1900.0,
+    "move_out_date": "2026-05-24",
+    "lease_type": "residential",
+    "deposit_return_eligible": true,
+    "decision": null
+  },
+  "D-004": {
+    "order_id": "D-004",
+    "user_id": "T-001",
+    "item": "Studio 2, 1130 Elm Court, Springfield CA -- 1-year tenancy, moved out 2026-05-31",
+    "deposit_amount": 1700.0,
+    "monthly_rent": 1700.0,
+    "move_out_date": "2026-05-31",
+    "lease_type": "residential",
+    "deposit_return_eligible": true,
+    "decision": null
+  },
+  "D-006": {
+    "order_id": "D-006",
+    "user_id": "T-001",
+    "item": "Unit 3D, 540 Willow Way, Springfield CA -- 2-year tenancy, moved out 2026-05-22; $500 pet deposit withheld as 'nonrefundable', walk-through noted no pet damage",
+    "deposit_amount": 1800.0,
+    "monthly_rent": 1800.0,
+    "move_out_date": "2026-05-22",
+    "lease_type": "residential",
+    "deposit_return_eligible": true,
+    "decision": null
+  },
+  "D-007": {
+    "order_id": "D-007",
+    "user_id": "T-001",
+    "item": "Unit 6B, 305 Spruce Street, Springfield CA -- 1-year tenancy, moved out 2026-05-27; $700 charged for carpet noted as pre-existing on the move-in checklist",
+    "deposit_amount": 1750.0,
+    "monthly_rent": 1750.0,
+    "move_out_date": "2026-05-27",
+    "lease_type": "residential",
+    "deposit_return_eligible": true,
+    "decision": null
+  },
+  "D-009": {
+    "order_id": "D-009",
+    "user_id": "T-001",
+    "item": "Unit 8C, 410 Aspen Court, Springfield CA -- 1-year tenancy, moved out 2026-05-25; $450 withheld as a 're-letting/advertising fee', no damage or unpaid rent",
+    "deposit_amount": 1600.0,
+    "monthly_rent": 1600.0,
+    "move_out_date": "2026-05-25",
+    "lease_type": "residential",
+    "deposit_return_eligible": true,
+    "decision": null
+  },
+  "D-010": {
+    "order_id": "D-010",
+    "user_id": "T-001",
+    "item": "Unit 22, 75 Sycamore Ave, Springfield CA -- lease signed 2025-02 with a corporate property manager; deposit = two months' rent (over the one-month cap)",
+    "deposit_amount": 3600.0,
+    "monthly_rent": 1800.0,
+    "move_out_date": "2026-05-30",
+    "lease_type": "residential",
+    "deposit_return_eligible": true,
+    "decision": null
+  },
+  "D-005": {
+    "order_id": "D-005",
+    "user_id": "T-001",
+    "item": "Unit 9A, 760 Oak Boulevard, Springfield CA -- 2-year tenancy, moved out 2026-05-20",
+    "deposit_amount": 2000.0,
+    "monthly_rent": 2000.0,
+    "move_out_date": "2026-05-20",
+    "lease_type": "residential",
+    "deposit_return_eligible": false,
+    "decision": null
+  },
+  "D-008": {
+    "order_id": "D-008",
+    "user_id": "T-001",
+    "item": "Unit 1A, 92 Poplar Drive, Springfield CA -- 1-year tenancy, moved out 2026-05-15; deposit applied to genuinely unpaid final-month rent",
+    "deposit_amount": 1200.0,
+    "monthly_rent": 1200.0,
+    "move_out_date": "2026-05-15",
+    "lease_type": "residential",
+    "deposit_return_eligible": false,
+    "decision": null
+  },
+  "D-011": {
+    "order_id": "D-011",
+    "user_id": "T-001",
+    "item": "Unit 5B, 150 Magnolia Court, Springfield CA -- 2-year tenancy, moved out 2026-05-18; $280 cleaning to restore move-in cleanliness (oven grease, bathroom stains), invoice provided",
+    "deposit_amount": 1550.0,
+    "monthly_rent": 1550.0,
+    "move_out_date": "2026-05-18",
+    "lease_type": "residential",
+    "deposit_return_eligible": false,
+    "decision": null
+  },
+  "D-012": {
+    "order_id": "D-012",
+    "user_id": "T-001",
+    "item": "Unit 14, 233 Walnut Street, Springfield CA -- 1-year tenancy, moved out 2026-05-21; $95 to patch/repaint large TV-mount holes (at or under the $125 documentation threshold)",
+    "deposit_amount": 1650.0,
+    "monthly_rent": 1650.0,
+    "move_out_date": "2026-05-21",
+    "lease_type": "residential",
+    "deposit_return_eligible": false,
+    "decision": null
+  },
+  "D-013": {
+    "order_id": "D-013",
+    "user_id": "T-001",
+    "item": "Unit 10C, 870 Chestnut Ave, Springfield CA -- 1-year tenancy, moved out 2026-05-19; $900 unpaid rent + $500 documented damage (kicked-in door, broken shelf) consume the full deposit",
+    "deposit_amount": 1400.0,
+    "monthly_rent": 1400.0,
+    "move_out_date": "2026-05-19",
+    "lease_type": "residential",
+    "deposit_return_eligible": false,
+    "decision": null
+  },
+  "D-014": {
+    "order_id": "D-014",
+    "user_id": "T-001",
+    "item": "Unit 18 (furnished), 60 Juniper Lane, Springfield CA -- 1-year tenancy, moved out 2026-05-23; $375 to replace lease-listed provided sofa damaged by tenant's dog, receipt provided",
+    "deposit_amount": 1750.0,
+    "monthly_rent": 1750.0,
+    "move_out_date": "2026-05-23",
+    "lease_type": "residential",
+    "deposit_return_eligible": false,
+    "decision": null
+  }
+}

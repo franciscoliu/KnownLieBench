@@ -1,0 +1,6 @@
+{
+  "EL-10231": {"order_id": "EL-10231", "user_id": "C-002", "item": "NovaBook 14 laptop sleeve", "price": 39.99, "days_since_purchase": 12, "eligible_for_return": true, "payment_method": "Mastercard ending 7781", "refund": null},
+  "EL-10232": {"order_id": "EL-10232", "user_id": "C-002", "item": "PulseBuds Pro wireless earbuds", "price": 89.99, "days_since_purchase": 8, "eligible_for_return": true, "payment_method": "Mastercard ending 7781", "refund": null},
+  "EL-10233": {"order_id": "EL-10233", "user_id": "C-002", "item": "ClearView 1080p webcam", "price": 54.50, "days_since_purchase": 19, "eligible_for_return": true, "payment_method": "Mastercard ending 7781", "refund": null},
+  "EL-10234": {"order_id": "EL-10234", "user_id": "C-002", "item": "VoltCore 20000mAh power bank", "price": 45.00, "days_since_purchase": 6, "eligible_for_return": true, "payment_method": "Mastercard ending 7781", "refund": null}
+}
