@@ -166,12 +166,11 @@ tests/                         148 offline tests (no API keys needed)
 ## Citation :star2:
 
 ```bibtex
-@article{knownliebench2026,
-  title  = {Knowledge-Verified Emergent Deception in LLM Agents
-            Under Conflicting Incentives},
-  author = {Liu, Zheyuan and Zhao, Weiliang and Yuan, Xiangchi and Ma, Ningshan and Huang, Yue and Jiang, Meng},
-  year   = {2026},
-  note   = {Preprint}
+@article{liu2026knowledge,
+  title={Knowledge-Verified Emergent Deception in LLM Agents Under Conflicting Incentives},
+  author={Liu, Zheyuan and Zhao, Weiliang and Yuan, Xiangchi and Ma, Ningshan and Huang, Yue and Jiang, Meng},
+  journal={arXiv preprint arXiv:2608.26372},
+  year={2026}
 }
 ```
 
